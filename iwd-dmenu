@@ -69,7 +69,7 @@ iwd_dmenu() {
             network="$(show_menu 'Forget' "${network_names}")"
 
             # get confirmation
-            answer="$(show_menu "Forget ${network}?" 'Yes' 'No')"
+            [ -n "${network}" ] && answer="$(show_menu "Forget ${network}?" 'Yes' 'No')"
 
             # forget if answer is yes
             [ "${answer}" = 'Yes' ] && iwctl known-networks "${network}" forget
@@ -84,6 +84,8 @@ iwd_dmenu() {
     get_network_info() {
         # scan interface
         iwctl station "${interface}" scan
+
+        printf '%s\n' "${1}"
 
         info="$(eval "${1}" | grep '\s' | tail +3 | awk '{ $1 = $1 }; 1' | sed -e 's/\x1b\[[0-9;]*m//g')"
 
