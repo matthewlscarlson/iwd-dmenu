@@ -14,7 +14,7 @@ Some dependencies:
 
 # Installation
 ```shell
-$ git clone https://github.com/mslcarlson/iwd-dmenu/
+$ git clone https://github.com/mlscarlson/iwd-dmenu/
 $ cd iwd-dmenu
 $ sudo make install
 ```
