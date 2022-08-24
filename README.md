@@ -1,7 +1,7 @@
 # iwd-dmenu
 An interactive iwd menu using dmenu.
 
-![iwd-dmenu](https://mcarlson.xyz/img/iwd-dmenu.png)
+![iwd-dmenu](https://mattcarlson.org/img/iwd-dmenu.png)
 
 Used with my [dotfiles](https://www.git.mcarlson.xyz/dots/). This script has some hacky solutions, will maybe improve them ¯\\\_(ツ)_/¯
 
