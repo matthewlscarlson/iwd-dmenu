@@ -3,7 +3,7 @@ An interactive iwd menu using dmenu.
 
 ![iwd-dmenu](https://mattcarlson.org/img/iwd-dmenu.png)
 
-Used with my [dotfiles](https://www.git.mcarlson.xyz/dots/). This script has some hacky solutions, will maybe improve them ¯\\\_(ツ)_/¯
+Used with my [dotfiles](https://www.git.mattcarlson.org/sites/dots/). This script has some hacky solutions, will maybe improve them ¯\\\_(ツ)_/¯
 
 Aside from grep word boundaries, this script should be pretty portable.
 
@@ -14,7 +14,7 @@ Some dependencies:
 
 # Installation
 ```shell
-$ git clone https://github.com/mlscarlson/iwd-dmenu/
+$ git clone https://github.com/matthewlscarlson/iwd-dmenu/
 $ cd iwd-dmenu
 $ sudo make install
 ```
